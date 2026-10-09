@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Registration - Online Book Store</title>
+</head>
+
+<body>
+
+    <div style="border: 2px solid rgb(82, 93, 195); padding: 10px; text-align: center;">
+        <h2>Online Book Store - Registration</h2>
+    </div>
+    <br><br>
+
+            <fieldset>
+                <legend><b>1. Personal Details</legend></b><br>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter full name"><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter email" ><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number"><br><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend><b>2. Security</legend></b><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="password">Confirm Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend><b>3. Bookstore Specifics</b></legend><br>
+                <label for="address">Delivery Address:</label><br>
+                <textarea id="address" name="address" rows="4" placeholder="Enter delivery address" style="width: 50%;"></textarea><br><br>
+
+                <label for="category">Favorite Category:</label><br>
+                <select id="category" name="category">
+                     <option value="Ethical Law">Ethical Law</option>
+                     <option value="Fiction & Novel">Fiction & Novel</option>
+                     <option value="Programming & Tech">Programming & Tech</option>
+                     <option value="Academic & Science">Academic & Science</option>
+                    </select><br><br>
+    
+            <fieldset>
+                <legend><b>4. Terms & Social Login</b></legend><br>
+                <p>Social Login:</p>
+                <input type="button" value="Continue with Google">
+                <input type="button" value="Continue with Facebook"><br><br>
+
+                <input type="checkbox" id="name" name="name">
+                <label for="text">I agree to the Terms & Conditions</label><br><br>
+            </fieldset><br>
+
+            <div style="text-align: center;">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset"><br><br>
+                <span>Already have an account? </span>
+                <a href="login.html">Log In</a>
+                <a href="onlinebookstore.html">Registration</a>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
