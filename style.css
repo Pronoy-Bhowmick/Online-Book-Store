@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+/* Header Section */
+div[style*="border: 2px solid"] {
+    background-color: skyblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: black;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="password"], 
+select, 
+textarea {
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"], 
+input[type="button"], 
+input[type="reset"] {
+    background-color: solid blue;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover, 
+input[type="button"]:hover, 
+input[type="reset"]:hover {
+    background-color: rgb(4, 175, 243);
+}
+
+a {
+    color: rgb(6, 183, 247);
+    text-decoration: none;
+    font-weight: bold;
+}
