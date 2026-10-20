@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(180, 223, 240);
+}
+h2{
+    color: black;
+}
+h1{
+    color: black;
+}
+
+input[type= "password"],
+input[type= "tel"],
+select,
+textarea{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background-color: white;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}

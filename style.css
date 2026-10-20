@@ -1,16 +1,10 @@
 body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('image.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    color: #333;
+    
 }
 
-/* Header Section */
-div[style*="border: 2px solid"] {
+div[style ="border: 2px solid"] {
     background-color: skyblue;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -29,7 +23,7 @@ textarea {
     padding: 8px;
     border: 1px solid blue;
     border-radius: 5px;
-    outline: none;
+   
 }
 
 input[type="submit"], 
